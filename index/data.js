@@ -31,7 +31,7 @@ function Mobile() {return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Op
 
 var data=[];
 function dateSet(_num, _char, _name, _orign, _mean, _umdok, _hundok, _memo) {  //1020,'安',"편안할 안","편안 사람의 형태","편하다는뜻",[dd,dd],[dddd,dd],"여기는주석"
-  data.push(_num,_char,_name,_orign,_mean,_umdok,_hundok,_memo);
+  data.push([_num,_char,_name,_orign,_mean,_umdok,_hundok,_memo]);
 }
 
 //======================================================================================================================================================
