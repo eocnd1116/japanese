@@ -26,19 +26,14 @@ function cookieReset(_key, _value) {
     return cookieGet(_key);
 }
 
+function Mobile() {return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);}
 
-var num=[];
-var char=[];
-var name=[];
-var orign=[];
-var umdok=[];
-var hundok=[];
-var memo=[];
 
+var data=[];
 function dateSet(_num, _char, _name, _orign, _mean, _umdok, _hundok, _memo) {  //1020,'安',"편안할 안","편안 사람의 형태","편하다는뜻",[dd,dd],[dddd,dd],"여기는주석"
-  
+  data.push(_num,_char,_name,_orign,_mean_,_umdok,_hundok,_memo);
 }
 
 //======================================================================================================================================================
 
-dateSet();
+dateSet(0014,'天',"하늘 천","사람 위의 제일(一) 커다란(大) 자연은 '하늘'이니","하늘 천",["てん","天 하늘 (てん)"],[],"단독으로 하늘을 지시할 때는 회화체에선 空（そら)를 사용하고 문어체에선 天을 쓴다.");
